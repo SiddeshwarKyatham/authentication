@@ -1,0 +1,48 @@
+{
+  "name": "multi-provider-oauth",
+  "version": "1.0.0",
+  "description": "A unified OAuth interface for multiple providers (Google, Facebook, LinkedIn, Twitter, Instagram, Reddit, GitHub)",
+  "main": "src/index.js",
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node example.js",
+    "prepublishOnly": "npm test",
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "oauth",
+    "authentication",
+    "google",
+    "github",
+    "facebook",
+    "twitter",
+    "linkedin",
+    "instagram",
+    "reddit",
+    "social-login",
+    "passport",
+    "jwt",
+    "auth",
+    "login"
+  ],
+  "author": "Siddeshwar <kyathamsiddeshwar@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siddu1210/multi-provider-oauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siddu1210/multi-provider-oauth/issues"
+  },
+  "homepage": "https://github.com/siddu1210/multi-provider-oauth#readme",
+  "dependencies": {
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
